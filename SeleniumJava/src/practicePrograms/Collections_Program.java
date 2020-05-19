@@ -59,7 +59,7 @@ public class Collections_Program {
 			
 		}
 		
-		Hashtable ht = new Hashtable();
+		Hashtable<String,String> ht = new Hashtable<String,String>();
 		ht.put("A","Meraj");
 		ht.put("B", "Minhaj");
 		ht.put("C", "Mehar");
