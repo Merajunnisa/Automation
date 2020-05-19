@@ -1,14 +1,11 @@
 package project2_AmazonTestSuites;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
-
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import project2_AmazonPages.HomePage;
 import project2_AmazonPages.LoginPage;
 import project2_AmazonUtilities.OpenBrowser;

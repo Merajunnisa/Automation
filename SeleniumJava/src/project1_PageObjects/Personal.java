@@ -1,5 +1,4 @@
 package project1_PageObjects;
-
 import org.openqa.selenium.By;
 
 public class Personal {

@@ -1,9 +1,6 @@
 package project1_TestScripts;
-
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
-
 import project1_HelperClass.BasicPage;
 import project1_PageObjects.Personal;
 import project1_PageObjects.TellMeAboutYourself;

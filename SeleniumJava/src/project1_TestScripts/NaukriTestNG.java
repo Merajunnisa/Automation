@@ -1,12 +1,9 @@
 package project1_TestScripts;
-
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import project1_HelperClass.BasicPage;
 import project1_PageObjects.Personal;
 import project1_PageObjects.TellMeAboutYourself;

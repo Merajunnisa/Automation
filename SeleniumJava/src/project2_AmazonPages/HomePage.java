@@ -1,9 +1,7 @@
 package project2_AmazonPages;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
 import project2_AmazonUtilities.SafeActions;
 
 public class HomePage extends SafeActions{
