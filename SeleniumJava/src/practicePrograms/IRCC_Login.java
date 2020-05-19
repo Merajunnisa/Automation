@@ -41,15 +41,15 @@ public class IRCC_Login {
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		String val = driver.findElement(By.xpath("//label/strong[1]")).getText();
-		if(val.equalsIgnoreCase("\"Year that I graduated from masters\"")) {
+		if(val.equalsIgnoreCase("\"Year that I graduated from degree\"")) {
 			driver.findElement(By.xpath("//input[@id='answer']")).clear();
 			driver.findElement(By.xpath("//input[@id='answer']")).sendKeys("****");
 		}
-		else if(val.equalsIgnoreCase("\"My brother-in-law's name\"")) {
+		else if(val.equalsIgnoreCase("\"My sister-in-law's name\"")) {
 			driver.findElement(By.xpath("//input[@id='answer']")).clear();
 			driver.findElement(By.xpath("//input[@id='answer']")).sendKeys("*****");
 		}
-		else if(val.equalsIgnoreCase("\"First country that I visited\"")) {
+		else if(val.equalsIgnoreCase("\"First school that I attended\"")) {
 			driver.findElement(By.xpath("//input[@id='answer']")).clear();
 			driver.findElement(By.xpath("//input[@id='answer']")).sendKeys("*******");
 		}
