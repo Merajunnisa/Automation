@@ -1,5 +1,4 @@
 package practicePrograms;
-
 import java.util.HashMap;
 
 public class OccuranceOfEachWordInString {

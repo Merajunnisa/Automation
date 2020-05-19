@@ -1,5 +1,4 @@
 package practicePrograms;
-
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -38,5 +37,4 @@ public class TestNGExample {
 		System.out.println("Test 2");
 	}
 	
-
 }

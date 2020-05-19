@@ -1,5 +1,4 @@
 package practicePrograms;
-
 public class ReverseEachWordInString {
 	
 	public static void reverseWord(String inputString) {

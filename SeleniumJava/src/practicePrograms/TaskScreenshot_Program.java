@@ -20,5 +20,4 @@ public class TaskScreenshot_Program {
 		driver.quit();
 
 	}
-
 }

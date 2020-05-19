@@ -10,5 +10,4 @@ Employee(String name, int EmpId, String desg) {
 		this.EmpId=EmpId;
 		this.desg=desg;
 	}
-
 }
